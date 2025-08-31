@@ -43,6 +43,11 @@
             key-positions = <11 12 13>;
             bindings = <&tog 0>;
         };
+
+        combo_tab {
+            bindings = <&kp TAB>;
+            key-positions = <10 11>;
+        };
     };
 
     macros {
