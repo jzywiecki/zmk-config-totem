@@ -133,4 +133,13 @@
             >;
         };
     };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        double {
+            if-layers = <2 1>;
+            then-layer = <3>;
+        };
+    };
 };
